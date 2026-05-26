@@ -3,6 +3,11 @@
    js/main.js
    ============================================================ */
 
+export default defineConfig({
+  base: '/sitthinon.promyo-profile/', // ใส่ชื่อ repo ปิดหัวท้ายด้วยสแลช
+  // ... ตั้งค่าอื่นๆ
+})
+
 /**
  * 1. SCROLL PROGRESS BAR
  * Updates the width of #scrollLine based on how far
